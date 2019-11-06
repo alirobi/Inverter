@@ -5,6 +5,6 @@ install:
   - pip install pytest
   - pip install pytest-cov
   - pip install coveralls
-script: python test_inv.py
+script: python --cov=test_inv.py
 after_success:
   - coveralls
