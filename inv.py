@@ -4,7 +4,7 @@ import operator
 
 
 operators = {
-    '~': operator.inv,
+    '*': operator.inv,
     '+': operator.add,
 }
 

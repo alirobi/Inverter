@@ -5,6 +5,6 @@ install:
   - pip install pytest
   - pip install pytest-cov
   - pip install coveralls
-script: pytest --cov=test_inv.py
+script: pytest --cov=alirobi/Inverter
 after_success:
   - coveralls
