@@ -5,6 +5,7 @@ import operator
 
 operators = {
     '~': operator.inv,
+    '+': operator.add,
 }
 
 def calculate(myarg):
