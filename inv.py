@@ -2,12 +2,11 @@
 
 import operator
 import math
-import statistics
 
 
 operators = {
-    '+': operator.add,
-    '-': math.log10,
+    # '+': operator.add,
+    '+': math.log10,
 }
 
 def calculate(myarg):
