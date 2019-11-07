@@ -8,6 +8,6 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
 
 class TestBasics(unittest.TestCase):
-    def test_mean(self):
-        result = inv.calculate("-")
-        self.assertEqual(2, result)
+    def test_log(self):
+        result = inv.calculate("10 -")
+        self.assertEqual(1, result)

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 import operator
-import cmath
+import math
 import statistics
 
 
 operators = {
     '+': operator.add,
-    '-': statistics.mean(2,2),
+    '-': math.log10,
 }
 
 def calculate(myarg):
