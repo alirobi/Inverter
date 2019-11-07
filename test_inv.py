@@ -9,5 +9,5 @@ import inv
 
 class TestBasics(unittest.TestCase):
     def test_log(self):
-        result = inv.calculate("8 3 +")
-        self.assertEqual(2, result)
+        result = inv.calculate("8 2 +")
+        self.assertEqual(3, result)
