@@ -1,4 +1,4 @@
 language: python
-install: pip install coverage
+install: pip install coverage coveralls
 script: coverage run -m unittest
 after_success: coveralls
