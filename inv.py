@@ -2,10 +2,12 @@
 
 import operator
 import cmath
+import statistics
 
 
 operators = {
     '+': operator.add,
+    '-': statistics.mean,
 }
 
 def calculate(myarg):
