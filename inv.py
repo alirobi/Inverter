@@ -6,7 +6,7 @@ import math
 
 operators = {
     # '+': operator.add,
-    '+': math.log10,
+    '+': math.log,
 }
 
 def calculate(myarg):
