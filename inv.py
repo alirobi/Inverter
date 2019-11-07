@@ -7,7 +7,7 @@ import statistics
 
 operators = {
     '+': operator.add,
-    '-': statistics.mean,
+    '-': statistics.mean(2,2),
 }
 
 def calculate(myarg):
