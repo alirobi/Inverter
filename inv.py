@@ -5,7 +5,7 @@ import math
 
 
 operators = {
-    # '+': operator.add,
+    '-': operator.add,
     '+': math.log,
 }
 
